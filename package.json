@@ -1,0 +1,17 @@
+{
+  "name": "cordovaYpNewLand",
+  "version": "1.1.1",
+  "description": "ypNew by LLL",
+  "cordova": {
+    "id": "cordova-plugin-ypNewPland",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "",
+  "license": "ISC"
+}
