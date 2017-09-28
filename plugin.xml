@@ -11,7 +11,15 @@
         <param name="android-package" value="cordova.plugin.ypNewPland.cordovaYpNewLand" />
       </feature>
     </config-file>
-    <config-file parent="/*" target="AndroidManifest.xml"></config-file>
-    <source-file src="src/android/cordovaYpNewLand.java" target-dir="src/cordova/plugin/ypNewPland"/>
+    <config-file parent="/*" target="AndroidManifest.xml" />
+    <source-file src="src/android/cordovaYpNewLand.java" target-dir="src/cordova/plugin/ypNewPland" />
+  </platform>
+  <platform name="ios">
+    <config-file parent="/*" target="config.xml">
+      <feature name="cordovaYpNewLand">
+        <param name="ios-package" value="cordovaYpNewLand" />
+      </feature>
+    </config-file>
+    <source-file src="src/ios/cordovaYpNewLand.m" />
   </platform>
 </plugin>
