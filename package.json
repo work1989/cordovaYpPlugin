@@ -13,5 +13,13 @@
     "cordova-android"
   ],
   "author": "lll",
-  "license": "ISC"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/work1989/cordovaYpPlugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/work1989/cordovaYpPlugin/issues"
+  },
+  "homepage": "https://github.com/work1989/cordovaYpPlugin#readme"
 }
